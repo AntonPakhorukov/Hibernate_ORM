@@ -37,7 +37,6 @@ public class UserDaoImp implements UserDao {
             query.setParameter("series", series);
             user = query.getSingleResult();
         } catch (Exception e) {
-//            System.out.println("User not found");
         }
         return user;
     }

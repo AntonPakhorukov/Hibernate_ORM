@@ -1,6 +1,5 @@
 package hiber.model;
 
-
 import javax.persistence.*;
 
 import javax.persistence.Column;
